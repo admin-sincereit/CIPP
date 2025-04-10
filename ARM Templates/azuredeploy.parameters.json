@@ -1,0 +1,49 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "name": {
+      "value": "cippdeployment"
+    },
+    "location": {
+      "value": "Australia East"
+    },
+    "sku": {
+      "value": "Free"
+    },
+    "skucode": {
+      "value": "Free"
+    },
+    "repositoryUrl": {
+      "value": "https://github.com/admin-sincereit/CIPP"
+    },
+    "branch": {
+      "value": "main"
+    },
+    "repositoryToken": {
+      "value": ""  // Paste manually during deployment
+    },
+    "appLocation": {
+      "value": "src"
+    },
+    "apiLocation": {
+      "value": ""
+    },
+    "appArtifactLocation": {
+      "value": "src"
+    },
+    "resourceTags": {
+      "value": {
+        "CIPP": "true"
+      }
+    },
+    "appSettings": {
+      "value": {
+        "ENCRYPTION_KEY": "4e72EG(o4ceUI6%)230[(xxd4Om7DcGI1cu~)pozd<T!!0i4aaa)s0MbFo^e8^n7GsIrGEeVO8Fcc|~RP4Ntv])&0Yie&fC}LE[}j)oTe#zOB*1QsajtJ86i#Z2HldXM",
+        "ENTRA_CLIENT_ID": "80e7bad7-3703-450e-8122-2c80ca841b3b",
+        "ENTRA_CLIENT_SECRET": "",
+        "ENTRA_TENANT_ID": "c8a8289e-71b6-4354-b42e-aefb967b29b7"
+      }
+    }
+  }
+}
