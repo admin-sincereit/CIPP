@@ -21,7 +21,7 @@
       "value": "main"
     },
     "repositoryToken": {
-      "value": ""  // Paste manually during deployment
+      "value": ""
     },
     "appLocation": {
       "value": "src"
